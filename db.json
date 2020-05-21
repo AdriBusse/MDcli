@@ -1,0 +1,63 @@
+{
+  "depots": [
+    {
+      "name": "Default",
+      "short": "DFT"
+    },
+    {
+      "name": "saving",
+      "short": "SFN"
+    },
+    {
+      "name": "Crypto",
+      "short": "CRP"
+    }
+  ],
+  "transactions": [
+    {
+      "amount": -45,
+      "purpose": "salary Feb",
+      "dest": "DFT"
+    },
+    {
+      "amount": -45,
+      "purpose": "salary Feb",
+      "dest": "DFT"
+    },
+    {
+      "amount": -45,
+      "purpose": "salary Feb",
+      "dest": "DFT"
+    },
+    {
+      "amount": -45,
+      "purpose": "salary Feb",
+      "dest": "DFT"
+    },
+    {
+      "amount": 100,
+      "purpose": "not specified",
+      "dest": "CRP"
+    },
+    {
+      "amount": 100,
+      "purpose": "not specified",
+      "dest": "FLY"
+    },
+    {
+      "amount": 130,
+      "purpose": "not specified",
+      "dest": "SFN"
+    },
+    {
+      "amount": -30,
+      "purpose": "not specified",
+      "dest": "SFN"
+    },
+    {
+      "amount": 30,
+      "purpose": "not specified",
+      "dest": "FLY"
+    }
+  ]
+}
