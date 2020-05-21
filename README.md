@@ -19,7 +19,7 @@ $ npm install -g moneydcli
 $ MDcli COMMAND
 running command...
 $ MDcli (-v|--version|version)
-moneydcli/0.0.0 win32-x64 node-v10.15.1
+moneydcli/1.0.2 win32-x64 node-v10.15.1
 $ MDcli --help [COMMAND]
 USAGE
   $ MDcli COMMAND
@@ -50,7 +50,7 @@ DESCRIPTION
   eg: MDcli addDepot -n "random Name" -s RND
 ```
 
-_See code: [src\commands\addDepot.js](https://github.com/AdrianBusse/MDcli/blob/v0.0.0/src\commands\addDepot.js)_
+_See code: [src\commands\addDepot.js](https://github.com/AdriBusse/MDcli/blob/v1.0.2/src\commands\addDepot.js)_
 
 ## `MDcli addT`
 
@@ -69,7 +69,7 @@ DESCRIPTION
   eg: MDcli addT -a 30 -p "small describtion -d RND
 ```
 
-_See code: [src\commands\addT.js](https://github.com/AdrianBusse/MDcli/blob/v0.0.0/src\commands\addT.js)_
+_See code: [src\commands\addT.js](https://github.com/AdriBusse/MDcli/blob/v1.0.2/src\commands\addT.js)_
 
 ## `MDcli deleteDepot`
 
@@ -89,7 +89,7 @@ DESCRIPTION
   It will not delete the Transactions assosiated with this Depot
 ```
 
-_See code: [src\commands\deleteDepot.js](https://github.com/AdrianBusse/MDcli/blob/v0.0.0/src\commands\deleteDepot.js)_
+_See code: [src\commands\deleteDepot.js](https://github.com/AdriBusse/MDcli/blob/v1.0.2/src\commands\deleteDepot.js)_
 
 ## `MDcli help [COMMAND]`
 
@@ -125,5 +125,5 @@ DESCRIPTION
   List all your Depots or transactions. Depend on the flag you set. No flag will show you booth
 ```
 
-_See code: [src\commands\ls.js](https://github.com/AdrianBusse/MDcli/blob/v0.0.0/src\commands\ls.js)_
+_See code: [src\commands\ls.js](https://github.com/AdriBusse/MDcli/blob/v1.0.2/src\commands\ls.js)_
 <!-- commandsstop -->

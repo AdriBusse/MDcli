@@ -1,7 +1,7 @@
 {
   "name": "moneydcli",
-  "version": "0.0.0",
-  "author": "Adrian Busse @AdrianBusse",
+  "version": "1.0.2",
+  "author": "Adrian Busse @AdriBusse",
   "bin": {
     "MDcli": "./bin/run"
   },
@@ -29,7 +29,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/AdrianBusse/MDcli",
+  "homepage": "https://github.com/AdriBusse/MDcli",
   "keywords": [
     "oclif"
   ],
@@ -42,7 +42,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "AdrianBusse/MDcli",
+  "repository": "AdriBusse/MDcli",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint .",

@@ -32,7 +32,7 @@ class LsCommand extends Command {
 
 
       const res = Depots.__wrapped__.depots
-      res.forEach((x,i)=>{this.log(`${x.name}   ${this.getSum(x.short)}`);this.log("___________".grey)})
+      res.forEach((x,i)=>{this.log(`${x.name} (${x.short})   ${this.getSum(x.short)}`);this.log("___________".grey)})
       
       
     }
